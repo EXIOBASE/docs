@@ -1,12 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T14:44:45.184Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ybMq84BxNlmUu8VgPtHc" version="24.5.5" type="device" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-19T00:26:11.536Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="B6aYnMCREMX_LYrx52cd" version="24.5.5" type="device" pages="4">
   <diagram name="Interface and dispatch." id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="1430" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="XBCE_SCQUN8-LyyIOr6G-40" edge="1">
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="180" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="182" y="160" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-33" target="XBCE_SCQUN8-LyyIOr6G-37" edge="1">
@@ -74,9 +78,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="110" y="460" />
               <mxPoint x="600" y="460" />
-              <mxPoint x="600" y="120" />
+              <mxPoint x="600" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,9 +93,9 @@
           <mxGeometry x="10" y="30" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-40" value="Get snakemake &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; and pass to &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;entry_point()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-39" vertex="1">
-          <mxGeometry x="10" y="90" width="100" height="50" as="geometry" />
+          <mxGeometry x="10" y="95" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="omsBiiyZAU-YAmJS0vMi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="XBCE_SCQUN8-LyyIOr6G-39" source="XBCE_SCQUN8-LyyIOr6G-47">
+        <mxCell id="omsBiiyZAU-YAmJS0vMi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="XBCE_SCQUN8-LyyIOr6G-39" source="XBCE_SCQUN8-LyyIOr6G-47">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="160.0000000000001" as="targetPoint" />
           </mxGeometry>
@@ -101,25 +104,18 @@
           <mxGeometry x="10" y="175" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;exec_control/external.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="40" width="180" height="240" as="geometry" />
+          <mxGeometry x="340" y="110" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-43" value="Call &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;get_snakemake_args()&lt;/font&gt;. Instantiate &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; from snakemake info. Call &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;entry_point()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-41" vertex="1">
-          <mxGeometry x="10" y="90" width="160" height="50" as="geometry" />
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-43" value="Call &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;get_snakemake_args()&lt;/font&gt;. Instantiate &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; from snakemake info." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-41" vertex="1">
+          <mxGeometry x="10" y="30" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-48" value="Call &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;get_commandline_args()&lt;/font&gt;. Instantiate &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; from CLI info. Call entry_point()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-41" vertex="1">
-          <mxGeometry x="10" y="175" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40" target="XBCE_SCQUN8-LyyIOr6G-43" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="390" as="sourcePoint" />
-            <mxPoint x="620" y="340" as="targetPoint" />
+        <mxCell id="bdgGGyO7C9tceOIkd3II-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="XBCE_SCQUN8-LyyIOr6G-41" source="XBCE_SCQUN8-LyyIOr6G-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-49" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-47" target="XBCE_SCQUN8-LyyIOr6G-48" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="475" as="sourcePoint" />
-            <mxPoint x="620" y="425" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-48" value="Call &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;get_commandline_args()&lt;/font&gt;. Instantiate &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; from CLI info." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-41" vertex="1">
+          <mxGeometry x="10" y="120" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;endArrow=oval;endFill=1;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-57" target="XBCE_SCQUN8-LyyIOr6G-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -156,23 +152,21 @@
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;endArrow=oval;endFill=1;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-48" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="550" as="targetPoint" />
+            <mxPoint x="520" y="530" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="240" />
-              <mxPoint x="560" y="550" />
+              <mxPoint x="510" y="240" />
+              <mxPoint x="540" y="240" />
+              <mxPoint x="540" y="530" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;endArrow=oval;endFill=1;entryX=1;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-43" edge="1" target="XBCE_SCQUN8-LyyIOr6G-73">
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;endArrow=oval;endFill=1;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="155" />
-              <mxPoint x="540" y="530" />
-              <mxPoint x="522" y="530" />
-              <mxPoint x="522" y="529" />
-              <mxPoint x="520" y="529" />
+              <mxPoint x="560" y="165" />
+              <mxPoint x="560" y="550" />
             </Array>
-            <mxPoint x="500" y="610" as="targetPoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-80" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;exec_control/dispatcher.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -205,32 +199,23 @@
             <mxPoint x="380" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-43" edge="1">
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="90" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="540" y="155" />
-              <mxPoint x="540" y="90" />
+              <mxPoint x="310" y="160" />
+              <mxPoint x="310" y="90" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="240" />
-              <mxPoint x="560" y="100" />
-              <mxPoint x="650" y="100" />
-            </Array>
-            <mxPoint x="650" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="580" y="360" />
-              <mxPoint x="580" y="110" />
+              <mxPoint x="580" y="130" />
+              <mxPoint x="650" y="130" />
             </Array>
-            <mxPoint x="650" y="110" as="targetPoint" />
+            <mxPoint x="650" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-93" value="&lt;i style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Courier New&quot;&gt;ExtArgs&lt;/font&gt; contains &lt;font style=&quot;font-size: 10px;&quot; face=&quot;Courier New&quot;&gt;ExtArgsQueryStr&lt;/font&gt; and &lt;font style=&quot;font-size: 10px;&quot; face=&quot;Courier New&quot;&gt;ExtArgsCommandStr&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -262,25 +247,27 @@
             <mxPoint x="-30" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="omsBiiyZAU-YAmJS0vMi-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;exec_control/external.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="560" width="160" height="200" as="geometry" />
+        <mxCell id="bdgGGyO7C9tceOIkd3II-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40" target="XBCE_SCQUN8-LyyIOr6G-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="omsBiiyZAU-YAmJS0vMi-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Implements&lt;/font&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; text-align: left; text-wrap: nowrap; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;get_commandline_args()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;and&amp;nbsp;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; text-wrap: nowrap; font-size: 9px;&quot;&gt;get_snakemake_args()&lt;/span&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;which processes CLI arguments or snakemake arguments into a &lt;font face=&quot;Courier New&quot;&gt;ExtArgs&lt;/font&gt; object.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="omsBiiyZAU-YAmJS0vMi-4">
-          <mxGeometry x="10" y="30" width="140" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="omsBiiyZAU-YAmJS0vMi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40">
+        <mxCell id="bdgGGyO7C9tceOIkd3II-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="680" as="targetPoint" />
+            <mxPoint x="430" y="190" as="targetPoint" />
             <Array as="points">
               <mxPoint x="230" y="200" />
-              <mxPoint x="320" y="200" />
-              <mxPoint x="320" y="680" />
-              <mxPoint x="280" y="680" />
+              <mxPoint x="430" y="200" />
+              <mxPoint x="430" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="omsBiiyZAU-YAmJS0vMi-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Call to either&amp;nbsp;&lt;font face=&quot;Courier New&quot;&gt;get_commandline_args()&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;or&amp;nbsp;&lt;font face=&quot;Courier New&quot;&gt;get_snakemake_args()&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="680" width="210" height="40" as="geometry" />
+        <mxCell id="bdgGGyO7C9tceOIkd3II-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-47" target="XBCE_SCQUN8-LyyIOr6G-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="240" />
+              <mxPoint x="320" y="100" />
+              <mxPoint x="646" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -290,7 +277,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7GqqldB8GadaWRTE--1i-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;entryX=0.01;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7GqqldB8GadaWRTE--1i-3">
+        <mxCell id="7GqqldB8GadaWRTE--1i-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;entryX=0.01;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7GqqldB8GadaWRTE--1i-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="180" as="sourcePoint" />
             <mxPoint x="160" y="350" as="targetPoint" />
@@ -299,64 +286,63 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseInstruction&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseInstruction&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-17" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Base class that is mostly a template but does some very basic setup.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;All derived classes must at a minimum implement &lt;font face=&quot;Courier New&quot;&gt;.perform()&lt;/font&gt; to do what the instruction should do.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7GqqldB8GadaWRTE--1i-1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-17" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Base class that is mostly a template but does some very basic setup.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;All derived classes must at a minimum implement &lt;font face=&quot;Courier New&quot;&gt;.perform()&lt;/font&gt; to do what the instruction should do.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7GqqldB8GadaWRTE--1i-1" vertex="1">
           <mxGeometry x="10" y="30" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="7GqqldB8GadaWRTE--1i-2" target="qU3h8FKMG3DbV0WdV8Ky-12">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" parent="1" source="7GqqldB8GadaWRTE--1i-2" target="qU3h8FKMG3DbV0WdV8Ky-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-2" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseFilesInstruction&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-2" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseFilesInstruction&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="200" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Base class from which almost all file processing instructions should be derived. Sets up transaction stuff. Accepts list of input and output target files.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7GqqldB8GadaWRTE--1i-2">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Base class from which almost all file processing instructions should be derived. Sets up transaction stuff. Accepts list of input and output target files.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="7GqqldB8GadaWRTE--1i-2" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="570" as="targetPoint" />
             <mxPoint x="160" y="370" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="100" y="370" />
               <mxPoint x="100" y="570" />
-              <mxPoint x="159" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseQuery&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Instruction&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseQuery&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Instruction&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="320" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Base class from which almost all query instructions are derived. Typically not implemented directly, i.e. derived from and implement BaseSpecsQueryInstruction or BaseMetaQueryInstruction instead.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7GqqldB8GadaWRTE--1i-3">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Base class from which almost all query instructions are derived. Typically not implemented directly, i.e. derived from and implement BaseSpecsQueryInstruction or BaseMetaQueryInstruction instead.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="7GqqldB8GadaWRTE--1i-3" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;" edge="1" parent="1" source="7GqqldB8GadaWRTE--1i-4">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;" parent="1" source="7GqqldB8GadaWRTE--1i-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseSpecsQuery&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Instruction&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseSpecsQuery&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Instruction&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="440" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Class from which &quot;specs&quot; query instructions are derived, e.g. queries that ask for a list of datamanager&#39;s commands.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7GqqldB8GadaWRTE--1i-4">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Class from which &quot;specs&quot; query instructions are derived, e.g. queries that ask for a list of datamanager&#39;s commands.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="7GqqldB8GadaWRTE--1i-4" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;" edge="1" parent="1" source="7GqqldB8GadaWRTE--1i-5">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;" parent="1" source="7GqqldB8GadaWRTE--1i-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseSpecsQuery&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Instruction&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7GqqldB8GadaWRTE--1i-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/base.py: BaseSpecsQuery&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Instruction&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="560" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Class from which &quot;meta&quot; query instructions are derived, i.e. any query that uses &lt;font face=&quot;Courier New&quot;&gt;meta/*.py&lt;/font&gt; to query the internal sqlite db .&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="7GqqldB8GadaWRTE--1i-5">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Class from which &quot;meta&quot; query instructions are derived, i.e. any query that uses &lt;font face=&quot;Courier New&quot;&gt;meta/*.py&lt;/font&gt; to query the internal sqlite db .&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="7GqqldB8GadaWRTE--1i-5" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" edge="1" parent="1" source="7GqqldB8GadaWRTE--1i-1" target="7GqqldB8GadaWRTE--1i-2">
+        <mxCell id="7GqqldB8GadaWRTE--1i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" parent="1" source="7GqqldB8GadaWRTE--1i-1" target="7GqqldB8GadaWRTE--1i-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7GqqldB8GadaWRTE--1i-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;entryX=-0.01;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7GqqldB8GadaWRTE--1i-4">
+        <mxCell id="7GqqldB8GadaWRTE--1i-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;entryX=-0.01;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7GqqldB8GadaWRTE--1i-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="390" as="sourcePoint" />
             <mxPoint x="150" y="456" as="targetPoint" />
@@ -366,16 +352,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-7" target="qU3h8FKMG3DbV0WdV8Ky-14">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-7" target="qU3h8FKMG3DbV0WdV8Ky-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;specifications/*.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;specifications/*.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="40" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-17" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Given a list of filenames, specifications instantiates the appropriate corresponding resource definition objects based on specifications kept in YAML files.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Then caller calls&amp;nbsp;&lt;font face=&quot;Courier New&quot;&gt;create_task_from_filenames()&lt;/font&gt; to get a list of tasks that are setup and ready to go.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qU3h8FKMG3DbV0WdV8Ky-7">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-17" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Given a list of filenames, specifications instantiates the appropriate corresponding resource definition objects based on specifications kept in YAML files.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Then caller calls&amp;nbsp;&lt;font face=&quot;Courier New&quot;&gt;create_task_from_filenames()&lt;/font&gt; to get a list of tasks that are setup and ready to go.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="qU3h8FKMG3DbV0WdV8Ky-7" vertex="1">
           <mxGeometry x="10" y="30" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-10">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="760" as="targetPoint" />
             <Array as="points">
@@ -383,13 +369,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/query.py : *&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/query.py : *&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="440" width="200" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-11" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Actually implements concrete classes for queries.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qU3h8FKMG3DbV0WdV8Ky-10">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-11" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Actually implements concrete classes for queries.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="qU3h8FKMG3DbV0WdV8Ky-10" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-12">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="120" as="targetPoint" />
             <Array as="points">
@@ -397,12 +383,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-26" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Optional:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;From list of filenames, &lt;font face=&quot;Courier New&quot;&gt;TaskInfo&lt;/font&gt; object,&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;and transaction,&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;gets a task that is &quot;pre-loaded&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;with the relevant&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;resources (instantiated resource definitions).&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qU3h8FKMG3DbV0WdV8Ky-23">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-26" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Optional:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;From list of filenames, &lt;font face=&quot;Courier New&quot;&gt;TaskInfo&lt;/font&gt; object,&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;and transaction,&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;gets a task that is &quot;pre-loaded&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;with the relevant&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;resources (instantiated resource definitions).&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qU3h8FKMG3DbV0WdV8Ky-23" vertex="1" connectable="0">
           <mxGeometry x="0.6318" y="4" relative="1" as="geometry">
             <mxPoint x="-68" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-12">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="40" as="targetPoint" />
             <Array as="points">
@@ -411,42 +397,51 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-43" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Called from &lt;font style=&quot;font-size: 10px;&quot; face=&quot;Courier New&quot;&gt;do_dispatch()&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qU3h8FKMG3DbV0WdV8Ky-42">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-43" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Called from &lt;font style=&quot;font-size: 10px;&quot; face=&quot;Courier New&quot;&gt;do_dispatch()&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="qU3h8FKMG3DbV0WdV8Ky-42" vertex="1" connectable="0">
           <mxGeometry x="0.8877" y="-1" relative="1" as="geometry">
             <mxPoint x="-31" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/*.py : *&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;instructions/*.py : *&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="200" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-13" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Actually implements concrete classes for files instructions.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qU3h8FKMG3DbV0WdV8Ky-12">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-13" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Actually implements concrete classes for files instructions.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="qU3h8FKMG3DbV0WdV8Ky-12" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-14" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;resource_definitions/*.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-14" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;resource_definitions/*.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="40" width="240" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-16" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Implements definitions (Pydantic classes) for various resources. These are only the definitions, not instantiated objects.&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The actual data is handled by specifications. However, these resource definitions wil be encoded in a YAML file, so any esoteric fields must have a serialization/deserialization defined.&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qU3h8FKMG3DbV0WdV8Ky-14">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-16" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Implements definitions (Pydantic classes) for various resources. These are only the definitions, not instantiated objects.&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The actual data is handled by specifications. However, these resource definitions wil be encoded in a YAML file, so any esoteric fields must have a serialization/deserialization defined.&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="qU3h8FKMG3DbV0WdV8Ky-14" vertex="1">
           <mxGeometry x="10" y="40" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-27" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;tasks/*.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-27" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;tasks/*.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="200" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-41" value="Specialised classes that &quot;do something&quot; when &lt;font face=&quot;Courier New&quot;&gt;.perform()&lt;/font&gt; is called..&lt;div&gt;&lt;br&gt;&lt;div&gt;Often, this will be iterating through a list of resource definitions that were added by specifications when the task was created.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Other times, the task was created directly by the instruction and we may iterate through another list, e.g. for archiver.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qU3h8FKMG3DbV0WdV8Ky-27">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-41" value="Specialised classes that &quot;do something&quot; when &lt;font face=&quot;Courier New&quot;&gt;.perform()&lt;/font&gt; is called..&lt;div&gt;&lt;br&gt;&lt;div&gt;Often, this will be iterating through a list of resource definitions that were added by specifications when the task was created.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Other times, the task was created directly by the instruction and we may iterate through another list, e.g. for archiver.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="qU3h8FKMG3DbV0WdV8Ky-27" vertex="1">
           <mxGeometry x="10" y="30" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;" edge="1" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-30">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;" parent="1" source="qU3h8FKMG3DbV0WdV8Ky-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;tasks/base.py : BaseTask&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;tasks/base.py : BaseTask&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="300" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-31" value="Base class for tasks. Formalises arguments/layout and some basic generic functionality." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qU3h8FKMG3DbV0WdV8Ky-30">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-31" value="Base class for tasks. Formalises arguments/layout and some basic generic functionality." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="qU3h8FKMG3DbV0WdV8Ky-30" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-45" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Called from &lt;font face=&quot;Courier New&quot;&gt;do_query_dispatch()&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="qU3h8FKMG3DbV0WdV8Ky-45" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Called from &lt;font face=&quot;Courier New&quot;&gt;do_query_dispatch()&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="730" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ofwN_uoOxVoxGkwkxdRN-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="600" as="sourcePoint" />
+            <mxPoint x="960" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofwN_uoOxVoxGkwkxdRN-2" value="Double arrow indicates inheritance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="620" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -541,7 +536,7 @@
           <mxGeometry x="240" y="80" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-1" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Pydantic model. Holds data that specifies one file to put to the archive.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Gets passed to &lt;font face=&quot;Courier New&quot;&gt;archive.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;font face=&quot;Yk55SiedR5uYBoC3a3kC&quot;&gt;archive_put()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qzbpFymddAXdpN5-U6gl-1">
-          <mxGeometry x="10" y="40" width="220" height="80" as="geometry" />
+          <mxGeometry x="10" y="30" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;archive/archiver.py: FileFromArchive&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="240" height="120" as="geometry" />
@@ -554,10 +549,10 @@
             <mxPoint x="40" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="endV0GAJbXYBOKsevJ12-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;archive/archiver.py: FileFromArchive&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="endV0GAJbXYBOKsevJ12-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;archive/archiver.py: _Archiver&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="400" width="240" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="endV0GAJbXYBOKsevJ12-5" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Handles put and pull operations to the archive based on &lt;font face=&quot;Courier New&quot;&gt;FileToArchive&lt;/font&gt; and &lt;font face=&quot;Courier New&quot;&gt;FileFromArchive&lt;/font&gt; lists.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Use&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;archive_put()&lt;/font&gt; and &lt;font face=&quot;Courier New&quot;&gt;archive_pull()&lt;/font&gt;, respectively.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Typically, you&#39;d want to use the relevant instructions and tasks instead of calling directly: there is usually other stuff going on you need to account for, which that code handles.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-4">
+        <mxCell id="endV0GAJbXYBOKsevJ12-5" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Instantiated as module global &lt;b&gt;singleton &lt;/b&gt;object.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Handles put and pull operations to the archive based on &lt;font face=&quot;Courier New&quot;&gt;FileToArchive&lt;/font&gt; and &lt;font face=&quot;Courier New&quot;&gt;FileFromArchive&lt;/font&gt; lists.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Use&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;archive_put()&lt;/font&gt; and &lt;font face=&quot;Courier New&quot;&gt;archive_pull()&lt;/font&gt;, respectively.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Typically, you&#39;d want to use the relevant instructions and tasks instead of calling directly: there is usually other stuff going on you need to account for, which that code handles.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-4">
           <mxGeometry x="10" y="40" width="220" height="270" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Calls from&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;PullActiveFilesFromArchiveTask&lt;/font&gt;,&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;PutFilesToArchiveTask&lt;/font&gt;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;ArchiveHttpFilesTask&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -572,7 +567,7 @@
         <mxCell id="endV0GAJbXYBOKsevJ12-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;file_control/fileregistry_misc_utils.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="240" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="endV0GAJbXYBOKsevJ12-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;One function,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;do_force_clean_activeset_fileregistry()&lt;/font&gt; which does what it says on the tine.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-16">
+        <mxCell id="endV0GAJbXYBOKsevJ12-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;One function,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;do_force_clean_activeset_fileregistry()&lt;/font&gt; which does what it says on the tin.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-16">
           <mxGeometry x="10" y="30" width="260" height="90" as="geometry" />
         </mxCell>
       </root>
