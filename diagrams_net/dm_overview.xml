@@ -1,23 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T00:26:11.536Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="B6aYnMCREMX_LYrx52cd" version="24.5.5" type="device" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-20T01:36:00.570Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1sGUfhx1q3_ySGb_Losv" version="24.5.5" type="device" pages="4">
   <diagram name="Interface and dispatch." id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="1430" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="160" as="sourcePoint" />
-            <mxPoint x="180" y="160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="182" y="160" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Xr6WDFQmQtoLUBRwUe6w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" width="1125" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-33" target="XBCE_SCQUN8-LyyIOr6G-37" edge="1">
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-33" target="XBCE_SCQUN8-LyyIOr6G-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="160" />
-              <mxPoint x="120" y="83" />
+              <mxPoint x="120" y="270" />
+              <mxPoint x="180" y="270" />
             </Array>
             <mxPoint x="130" y="160.0000000000001" as="sourcePoint" />
           </mxGeometry>
@@ -25,18 +20,22 @@
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-33" value="snakemake" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="40" y="140" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="XBCE_SCQUN8-LyyIOr6G-47" edge="1">
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-34" target="XBCE_SCQUN8-LyyIOr6G-37" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="240" />
+              <mxPoint x="140" y="260" />
+              <mxPoint x="181" y="260" />
+            </Array>
             <mxPoint x="130" y="240.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.01;entryY=0.448;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-34" target="XBCE_SCQUN8-LyyIOr6G-37" edge="1">
+        <mxCell id="5GvMk58FSyBV8rk3-0Nu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-34" target="XBCE_SCQUN8-LyyIOr6G-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="240" />
-              <mxPoint x="130" y="92" />
+              <mxPoint x="140" y="240" />
+              <mxPoint x="140" y="175" />
             </Array>
-            <mxPoint x="130" y="240.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-34" value="cli" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
@@ -46,7 +45,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="140" y="360" />
-              <mxPoint x="140" y="101" />
+              <mxPoint x="140" y="280" />
+              <mxPoint x="179" y="280" />
             </Array>
             <mxPoint x="130" y="320" as="sourcePoint" />
           </mxGeometry>
@@ -61,7 +61,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="460" />
-              <mxPoint x="150" y="111" />
+              <mxPoint x="150" y="291" />
+              <mxPoint x="180" y="291" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -87,21 +88,18 @@
           <mxGeometry x="40" y="440" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-39" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;__main__.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="170" y="40" width="130" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="XBCE_SCQUN8-LyyIOr6G-37" value="Python does imports and runs &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;__init__.py&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-39" vertex="1">
-          <mxGeometry x="10" y="30" width="100" height="50" as="geometry" />
+          <mxGeometry x="170" y="40" width="130" height="170" as="geometry" />
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-40" value="Get snakemake &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; and pass to &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;entry_point()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-39" vertex="1">
-          <mxGeometry x="10" y="95" width="100" height="50" as="geometry" />
+          <mxGeometry x="15" y="30" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="omsBiiyZAU-YAmJS0vMi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="XBCE_SCQUN8-LyyIOr6G-39" source="XBCE_SCQUN8-LyyIOr6G-47">
+        <mxCell id="5GvMk58FSyBV8rk3-0Nu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="XBCE_SCQUN8-LyyIOr6G-39" source="XBCE_SCQUN8-LyyIOr6G-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="160.0000000000001" as="targetPoint" />
+            <mxPoint x="64.85714285714289" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-47" value="Get CLI &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; and pass to &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;entry_point()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-39" vertex="1">
-          <mxGeometry x="10" y="175" width="100" height="50" as="geometry" />
+          <mxGeometry x="15" y="110" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;exec_control/external.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="110" width="180" height="170" as="geometry" />
@@ -109,7 +107,7 @@
         <mxCell id="XBCE_SCQUN8-LyyIOr6G-43" value="Call &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;get_snakemake_args()&lt;/font&gt;. Instantiate &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;ExtArgs&lt;/font&gt; from snakemake info." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="XBCE_SCQUN8-LyyIOr6G-41" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bdgGGyO7C9tceOIkd3II-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="XBCE_SCQUN8-LyyIOr6G-41" source="XBCE_SCQUN8-LyyIOr6G-48">
+        <mxCell id="bdgGGyO7C9tceOIkd3II-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="XBCE_SCQUN8-LyyIOr6G-41" source="XBCE_SCQUN8-LyyIOr6G-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="90" as="targetPoint" />
           </mxGeometry>
@@ -203,8 +201,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="90" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="160" />
-              <mxPoint x="310" y="90" />
+              <mxPoint x="285" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -247,25 +244,33 @@
             <mxPoint x="-30" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bdgGGyO7C9tceOIkd3II-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40" target="XBCE_SCQUN8-LyyIOr6G-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bdgGGyO7C9tceOIkd3II-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40">
+        <mxCell id="bdgGGyO7C9tceOIkd3II-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40" target="XBCE_SCQUN8-LyyIOr6G-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="200" />
-              <mxPoint x="430" y="200" />
-              <mxPoint x="430" y="190" />
+              <mxPoint x="120" y="95" />
+              <mxPoint x="120" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bdgGGyO7C9tceOIkd3II-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-47" target="XBCE_SCQUN8-LyyIOr6G-81">
+        <mxCell id="XBCE_SCQUN8-LyyIOr6G-37" value="Python does imports and runs &lt;font face=&quot;Courier New&quot; style=&quot;font-size: 9px;&quot;&gt;__init__.py&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="185" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GvMk58FSyBV8rk3-0Nu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="175" />
+              <mxPoint x="320" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GvMk58FSyBV8rk3-0Nu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="XBCE_SCQUN8-LyyIOr6G-40" target="XBCE_SCQUN8-LyyIOr6G-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="240" />
-              <mxPoint x="320" y="100" />
-              <mxPoint x="646" y="100" />
+              <mxPoint x="235" y="130" />
+              <mxPoint x="330" y="130" />
+              <mxPoint x="330" y="210" />
+              <mxPoint x="430" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -277,6 +282,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="r9zK1SrryhUsz_m9MucN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1120" height="780" as="geometry" />
+        </mxCell>
         <mxCell id="7GqqldB8GadaWRTE--1i-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;entryX=0.01;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="7GqqldB8GadaWRTE--1i-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="180" as="sourcePoint" />
@@ -451,6 +459,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C5XzhPF-j2rBlDeT83zD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="940" height="760" as="geometry" />
+        </mxCell>
         <mxCell id="MAoHbvNmkCc9JuIqW9R0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="FTSaDaE9Lzy7Y0ZxxwKm-1" target="MAoHbvNmkCc9JuIqW9R0-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -532,40 +543,43 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xflGG40lfZzsJb7OJLu6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="970" height="700" as="geometry" />
+        </mxCell>
         <mxCell id="qzbpFymddAXdpN5-U6gl-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;archive/archiver.py: FileToArchive&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="240" height="120" as="geometry" />
+          <mxGeometry x="280" y="80" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-1" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Pydantic model. Holds data that specifies one file to put to the archive.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Gets passed to &lt;font face=&quot;Courier New&quot;&gt;archive.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;font face=&quot;Yk55SiedR5uYBoC3a3kC&quot;&gt;archive_put()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="qzbpFymddAXdpN5-U6gl-1">
           <mxGeometry x="10" y="30" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;archive/archiver.py: FileFromArchive&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="240" width="240" height="120" as="geometry" />
+          <mxGeometry x="280" y="240" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-3" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Pydantic model. Holds data that specifies one file to pull from the archive.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Gets passed to &lt;font face=&quot;Courier New&quot;&gt;archive.&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;font face=&quot;Yk55SiedR5uYBoC3a3kC&quot;&gt;archive_pull()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-2">
           <mxGeometry x="10" y="40" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="endV0GAJbXYBOKsevJ12-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="480" as="targetPoint" />
+            <mxPoint x="80" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;archive/archiver.py: _Archiver&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="240" height="320" as="geometry" />
+          <mxGeometry x="280" y="400" width="240" height="320" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-5" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Instantiated as module global &lt;b&gt;singleton &lt;/b&gt;object.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Handles put and pull operations to the archive based on &lt;font face=&quot;Courier New&quot;&gt;FileToArchive&lt;/font&gt; and &lt;font face=&quot;Courier New&quot;&gt;FileFromArchive&lt;/font&gt; lists.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Use&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;archive_put()&lt;/font&gt; and &lt;font face=&quot;Courier New&quot;&gt;archive_pull()&lt;/font&gt;, respectively.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Typically, you&#39;d want to use the relevant instructions and tasks instead of calling directly: there is usually other stuff going on you need to account for, which that code handles.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-4">
           <mxGeometry x="10" y="40" width="220" height="270" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Calls from&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;PullActiveFilesFromArchiveTask&lt;/font&gt;,&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;PutFilesToArchiveTask&lt;/font&gt;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;ArchiveHttpFilesTask&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="414" width="210" height="70" as="geometry" />
+          <mxGeometry x="50" y="414" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;file_control/fileregistry_info_ctrl.py :&amp;nbsp;FileregistryInfoCtrl&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="400" width="280" height="320" as="geometry" />
+          <mxGeometry x="680" y="400" width="280" height="320" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-15" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Class used to interact with the file regsitry. Offers a variety of methods.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-14">
           <mxGeometry x="10" y="40" width="260" height="270" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;file_control/fileregistry_misc_utils.py&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="280" height="120" as="geometry" />
+          <mxGeometry x="680" y="240" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="endV0GAJbXYBOKsevJ12-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;One function,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;do_force_clean_activeset_fileregistry()&lt;/font&gt; which does what it says on the tin.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="endV0GAJbXYBOKsevJ12-16">
           <mxGeometry x="10" y="30" width="260" height="90" as="geometry" />
